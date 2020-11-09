@@ -1,0 +1,17 @@
+.component-wrapper {
+    justify-items: center;
+  }
+  
+  @media screen and (min-width: 660px) {
+    .component-wrapper {
+      grid-template-columns: 1fr 4fr;
+    }
+  }
+  
+  @media screen and (min-width: 128px) {
+    .home-container {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
+  
